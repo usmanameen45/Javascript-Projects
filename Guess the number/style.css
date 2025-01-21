@@ -31,7 +31,7 @@ body {
     margin-top: 16px;
 }
 
-#subt {
+#subt , #newGame {
     background-color: #161616;
     color: #ffffff;
     height: 50px;
