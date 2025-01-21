@@ -66,12 +66,13 @@ function displayMessage(message) {
 }
 
 function endGame() {
-  playGame = false;
   userInput.value = "";
   userInput.setAttribute("disabled", "");
   p.classList.add("button");
   p.innerHTML = `<button id="newGame">Start new game</button>`;
   startOver.appendChild(p);
+  playGame = false;
+  newGame();
 }
 
 function newGame() {
